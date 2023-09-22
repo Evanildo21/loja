@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:  Helvetica;
+    text-decoration: none;   
+    
+}
+#cabecalho{
+    background-color: black;
+    width: 1370px;
+    height: 100px;
+    float: left;
+}
+#menu{
+    background-color: #fafafaa6;
+    width: 100%;
+    height: 50px;
+    float: left;
+
+}
+#masculino{
+    width: 10%;
+text-align: center;
+border: solid #000000;
+float: left;
+
+}
+#feminino{
+    width: 10%;
+    text-align: center;
+    border: solid ;
+    float: left;
+}
+#infantil{
+    width: 10%;
+text-align: center;
+border: solid black;
+float: left;
+}
+#CEP{
+    width: 20%;
+    text-align: center;
+    float: left;
+}
+
+.informe{
+    background-color: #000000;
+    float: left;
+    height: 50px;
+    width: 100%;
+}
+.carrossel{
+    background-color:aqua;
+    float: left;
+    height: 500px;
+    width: 100%;
+}
+.opções{
+    float: left;
+    width: 100%;
+    height: 200px;
+    background-color: #EDB079;
+}
+#menssagem-promoçoes{
+    float: left;
+    width: 100%;
+    background-color: #000000;
+    height: 50px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+#menssagem-promoçoes label{
+    font-size: 15px;
+    font-family: 'Courier New';
+    color: #fafafa;
+}
+
+#promoçoes{
+    float: left;
+    width: 100%;
+    background-color: aqua;
+    height: 300px;
+}
+#rodape{
+    float: left;
+    width: 100%;
+    background-color: #000000;
+    height: 300px;
+}
