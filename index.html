@@ -5,40 +5,78 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>imperio dos calçados</title>
     <link rel="stylesheet" href="css/stayle.css">
+    <link rel="stylesheet" href="css/stayleCarrossel.css">
+    <link rel="stylesheet" href="css/stayleCabecalho.css">
     <script src="js/script.js"></script>
 </head>
 <body>
     <div id="cabecalho">
-        <header>
+        <div id ="logo">
 
-        </header>
+        </div>
+        <form action="">
+            <div class="pesquisar">
+                <input required type="text" id="pesquisa" class="input">
+                <label for="pesquisa">&emsp;O que procuras hoje?</label>
+            </div>
+        </form>
+        <div id="entrar">
+            <a id="log" href="">entrar</a>
+        </div>
+
     </div>
+
     <div class="menu">
         <div id="CEP">
             <div class="input-single"> 
-                <input type="text" name="name" id="name-box" class="input" autocomplete="off" required>
-                <label for="nome-box">informe seu CEP</label>
+                <input type="text" name="" id="numCEP" class="input" autocomplete="off" required>
+                <label for="numCEP">&emsp;informe seu CEP</label>
             </div>
         </div>
-
-        <div  id="masculino">
-            <input type="submit" id="man" value="masculino">
-        </div>  
-        <div  id="feminino">
-            <input type="submit" id="gir" value="feminino">
-        </div>  
-        
-        <div  id="infantil">
-            <input type="submit" id="child" value="infantil">
-        </div>  
+        <div id="butoes">
+            <div  id="masculino">
+                <a id="bntM" href="">Masculino</a>
+            </div>  
+            <div  id="feminino">
+                <a id="bntF" href="">Feminino</a>
+            </div>  
+            
+            <div  id="infantil">
+                <a id="bntI" href="">Infantil</a>
+            </div>  
+        </div>
     </div>
+
     <div class="informe"> 
-
+        <div id="menssgem-informe">
+            <div>
+                <label for="">Troca grátis em 15 dias</label>
+            </div>
+            <div >
+                <label for="">Entregamos  em todas as regiões do Brasil</label> 
+            </div>
+            <div>
+                <label for="">Parcele em até 12 x sem juros</label>
+            </div>
+        </div>
     </div>
-    <div class="carrossel">
 
+    <div class="carrossel">
+    <img src="https://contrarelogio.com.br/wp-content/uploads/2021/08/Captura-de-Tela-2021-08-16-as-13.44.38.png" alt="">   
     </div>
     <div class="opções">
+        <button type="submit" id="img1">
+            <img src="https://img.irroba.com.br/fit-in/600x600/filters:fill(fff):quality(80)/querosho/catalog/tenis-masculino-caminhada-na-promocao-marinho3.jpg" alt="imagem1">
+        </button>
+        <button type="submit">
+            <img src="https://www.natriboshoes.com.br/cdn/shop/files/TenisFemininoLeve_9930c750-28b1-4048-be7b-503321f25e87_2048x2048.png" alt="imagem2">
+        </button>
+        <button type="submit">    
+            <img src="https://levezastore.com.br/cdn/shop/products/tenis-masculino-ortopedico-sport-tenis-masculino-ortopedico-sport-ga-leveza-store-901841_800x.jpg" alt="imagem3">
+        </button>
+        <button>    
+            <img src="https://img.irroba.com.br/fit-in/600x600/filters:fill(fff):quality(80)/querosho/catalog/tenis-masculino-caminhada-na-promocao-marinho3.jpg" alt="imagem4">
+        </button>
 
     </div>
     <div id="menssagem-promoçoes">

@@ -1,0 +1,30 @@
+
+.carrossel img{
+    width: 100%;
+    height: 500px;
+    margin-top: 5px;
+ 
+}
+
+.opções{
+align-items: center;
+display: flex;
+justify-content: center;
+
+}
+
+button {
+    all: unset;
+    cursor: pointer;
+    outline: revert;
+  }
+.opções img{
+    border-radius: 50%;
+    height: auto;
+    width: auto;
+    max-width: 100px;
+    max-height: 100px;
+    border: solid #333;
+    float: left;
+    margin-left: 10px;
+}

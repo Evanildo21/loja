@@ -1,0 +1,126 @@
+#cabecalho{
+    background-color: black;
+    width: 100%;
+    height: 100px;
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#cabecalho form{
+    width: 100%;
+    max-width: 500px;
+
+}
+
+#logo{
+    float: left;
+    width: 300px;
+    height: 50px;
+
+    left: 0;
+    margin-right: 200px;
+}
+#entrar{
+background-color: #D9D9D9;
+float: left;
+margin-left: 100px;
+width: 100px;
+height: 30px;
+align-items: center;
+display: flex;
+justify-content: center;
+border-radius: 50px;
+}
+.pesquisar{
+width: 100%;
+margin: 30px 0;
+position: relative;
+margin-right: 100px;
+}
+.pesquisar label{
+    font-size: 16px;
+    position: absolute;
+    left:0;
+    bottom: 5px;
+    color: rgb(150, 150, 150);
+    cursor:text;
+    transition: 0,5s ease-in-out;
+}
+.pesquisar input{
+    width: 100%;
+    padding: 5px;
+    color: rgb(150, 150, 150);
+    border-bottom: 2px solid rgb(200,200,200);
+    outline: 0;
+    font-size: 16px;
+    border-radius: 50px;
+}
+
+
+.pesquisar .input:focus,
+.pesquisar .input:valid{
+    border-bottom: 2px solid cornflowerblue;
+}
+.pesquisar .input:focus ~ label ,
+.pesquisar .input:valid ~ label{
+    transform: translateY(-25px);
+    font-size: 12px;
+    color: cornflowerblue;
+}
+
+#CEP{
+    width: 200px;
+    margin: 0;
+    position: relative; 
+    margin-left: 30px;
+}
+
+#CEP label{
+    font-size: 16px;
+    position: absolute;
+    left:0;
+    bottom: 5px;
+    color: rgb(150, 150, 150);
+    cursor:text;
+    transition: 0,5s ease-in-out;
+    float: left;
+}
+
+#CEP input{
+    width: 150px;
+    padding: 5px;
+    color: rgb(150, 150, 150);
+    border-bottom: 2px solid rgb(200,200,200);
+    outline: 0;
+    border: 0;
+    font-size: 16px;
+    border-radius: 50px;
+    float: left;
+   
+}
+#CEP .input:focus,
+#CEP .input:valid{
+    border-bottom: 2px solid cornflowerblue;
+}
+#CEP .input:focus ~ label ,
+#CEP .input:valid ~ label{
+    transform: translateY(-25px);
+    font-size: 12px;
+    color: cornflowerblue;
+}
+
+.infoe{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.informe #menssgem-informe{
+    margin-top: 20px;
+    color: #fafafa;
+}
+#menssgem-informe div{
+    float: left;
+    margin-left: 200px;
+}
