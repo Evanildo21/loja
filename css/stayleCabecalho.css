@@ -50,7 +50,7 @@ margin-right: 100px;
 .pesquisar input{
     width: 100%;
     padding: 5px;
-    color: rgb(150, 150, 150);
+    color: #D9D9D9;
     border-bottom: 2px solid rgb(200,200,200);
     outline: 0;
     font-size: 16px;
@@ -74,6 +74,7 @@ margin-right: 100px;
     margin: 0;
     position: relative; 
     margin-left: 30px;
+    margin-top: 10px;
 }
 
 #CEP label{
@@ -88,7 +89,7 @@ margin-right: 100px;
 }
 
 #CEP input{
-    width: 150px;
+    width: 200px;
     padding: 5px;
     color: rgb(150, 150, 150);
     border-bottom: 2px solid rgb(200,200,200);
@@ -109,6 +110,32 @@ margin-right: 100px;
     font-size: 12px;
     color: cornflowerblue;
 }
+
+#butoes{
+    width: 900px;
+    height: 50px;
+    float: left;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+#butoes div{
+    margin-left: 100px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 10%;
+    height: 50px;
+    text-align: center;
+    background-color: #D9D9D9;
+    float: left;
+    font-size: 20px;
+}
+
+
+
+
+
 
 .infoe{
     align-items: center;
