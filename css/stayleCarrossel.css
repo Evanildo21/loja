@@ -14,18 +14,23 @@ float: left;
 width: 100%;
 height: 200px;
 
+
 }
 
-#bnt div label{
-    align-items: end;
-    margin-left: 40px;
+.opções div{
+    padding: 5px 5px;
+    display: flex;
+    justify-content: center;
+    float: left;
+    align-items: center;
+    margin-left: 20px;
+   
+}
+p{
+    font-family: Helvetica;
+    text-align: center;
 }
 
-button {
-    all: unset;
-    cursor: pointer;
-    outline: revert;
-  }
 .opções img{
     border-radius: 50%;
     height: auto;
